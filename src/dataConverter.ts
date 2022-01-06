@@ -1,6 +1,5 @@
 import data from './data.json'
 
-
 const dealerMap: Record<string, typeof data.data.getInventory.dealerInfo[0]> = {}
 
 const fillDealerMap = () => {
